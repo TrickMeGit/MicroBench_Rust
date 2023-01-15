@@ -17,10 +17,11 @@ fn main() {
         // 1st run
 
         a += 1;
+        // a += 2;      // reverse test
 
         // bench function
         // func1();
-        // func2();
+        // func2();     // reverse test
 
     }   // /1st run
     first = start.elapsed();
@@ -34,10 +35,11 @@ fn main() {
         // 2nd run
 
         a += 2;
+        // a += 1;      // reverse test
 
         // bench function
         // func2();
-        // func1();
+        // func1();     // reverse test
 
     }   // 2nd run
     second = start.elapsed();
