@@ -10,7 +10,7 @@ fn main() {
 
     // bench setup
 
-    let mut a: isize = 0;
+    let mut _a: i64 = 0;
 
     // /bench setup
 
