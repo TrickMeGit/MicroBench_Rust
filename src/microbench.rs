@@ -1,7 +1,7 @@
 use std::time::Instant;
 
 // set run repetitions
-const RUNS: usize = 65536;
+const RUNS: u64 = 65536;
 
 fn main() {    
     let mut start;
