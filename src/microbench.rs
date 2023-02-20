@@ -3,11 +3,10 @@ use std::time::Instant;
 // add uses for bench:
 
 
-// set run repetitions:
-const RUNS: u64 = 65536;
-
-
-fn main() {    
+fn main() {
+    // set run repetitions:
+    const RUNS: u64 = 65536;
+    
     let mut start;
     let first;
     let second;
